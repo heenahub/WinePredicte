@@ -1,0 +1,40 @@
+/* .container1 style (for the page with background image) */
+.container1 {
+    background-image: url("ho.webp");  /* Ensure the path is correct */
+    background-size: cover;  /* Ensures the image covers the entire container */
+    background-position: center center;  /* Centers the image */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
+    height: 97vh;  /* Makes the container take the full viewport height */
+    color: white;  /* Makes text color white for visibility */
+    display: flex;  /* Using flexbox for centering content */
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;  /* Centers content vertically */
+    text-align: center;  /* Centers text horizontally */
+    /* Adds padding around the content */
+}
+
+/* .container2 style (for the content inside the container) */
+.container2 {
+    max-width: 600px;  /* Limit the content width */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);  /* Optional: add a semi-transparent background for better readability */
+    border-radius: 10px;  /* Optional: round the corners */
+}
+
+/* Styling for buttons */
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;  /* Optional: round the button edges */
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #0056b3;
+}
